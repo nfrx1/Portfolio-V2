@@ -10,7 +10,7 @@ A modern, responsive personal portfolio built with React, Tailwind CSS v4, and D
 
 ## Demo & Preview
 
-* Live Site: https://nfrx1.github.io/Portfolio/
+* Live Site: https://portfoliov2-gamma-pearl.vercel.app
 
 ---
 
