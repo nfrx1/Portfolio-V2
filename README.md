@@ -1,16 +1,79 @@
-# React + Vite
+<p align="center">
+  <img src="src/assets/projects/PortfolioV2.png" alt="Project Preview" width="100%" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Personal Portfolio Website
 
-Currently, two official plugins are available:
+A modern, responsive personal portfolio built with React, Tailwind CSS v4, and DaisyUI. This project showcases my personal projects, background, and technical skills as a Full-Stack Developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Demo & Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Live Site: https://nfrx1.github.io/Portfolio/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+
+* React (Vite)
+* Tailwind CSS v4
+* DaisyUI
+* GitHub Pages
+
+---
+
+## Features
+
+* Fully Responsive Layout: Seamless experience across mobile, tablet, and desktop devices.
+* Theme Controller: Toggle between Light/Dark themes using DaisyUI theme controllers.
+* Dynamic Tab Navigation: Smooth client-side view switching (Home, About, Projects).
+* Interactive Skills Showcase: Grid view of technical skills with custom level tooltips and hover effects.
+* Featured Projects Grid: Categorized portfolio items with live demo links and GitHub repository shortcuts.
+
+---
+
+## Project Structure
+
+src/
+├── assets/             # Static images, icons, and skill logos
+├── Components/
+│   ├── About/          # About page component & Skill card component
+│   ├── Main/           # Home section, bio text, and hero image
+│   ├── NavBar/         # Navigation header and theme switcher
+│   └── Projects/       # Projects list and showcase cards
+├── App.jsx             # Main layout & state management for active tabs
+├── index.css           # Global CSS, Tailwind CSS imports & DaisyUI plugin
+└── main.jsx            # React root entry point
+
+---
+
+## Getting Started
+
+Follow these steps to run the project locally on your machine:
+
+### Prerequisites
+
+Make sure you have Node.js installed:
+* Node.js (v18.0 or higher recommended)
+
+### Installation
+
+1. Clone the repository:
+   git clone https://github.com/nfrx1/Portfolio.git
+   cd Portfolio
+
+2. Install dependencies:
+   npm install
+
+3. Start the development server:
+   npm run dev
+
+4. Open http://localhost:5173 in your browser to view the app.
+
+---
+
+## Author
+
+Dawood Ali
+* GitHub: https://github.com/nfrx1
