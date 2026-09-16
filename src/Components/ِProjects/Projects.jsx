@@ -2,6 +2,8 @@ import React from "react";
 import portfolio from "../../assets/projects/Portfolio.png";
 import fanbase from "../../assets/projects/Fanbase.png";
 import portfolioV2 from "../../assets/projects/PortfolioV2.png";
+import movieWorld from "../../assets/projects/movieWorld.png";
+
 const PROJECTS_DATA = [
   {
     title: "Portfolio V1",
@@ -30,6 +32,15 @@ const PROJECTS_DATA = [
     githubUrl: "",
     demoUrl: "",
   },
+  {
+    title: "Movie World",
+    description: 
+      "Browse and discover movies with live data from TMDB — trending, top rated, by genre, with details and recommendations.",
+    image: movieWorld,
+    tags: ["React", "daisyUi", "motion", "TailwindCSS", "JavaScript"],
+    githubUrl: "https://github.com/nfrx1/Movie-World",
+    demoUrl: ""
+  }
 ];
 
 const Projects = () => {
