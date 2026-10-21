@@ -5,7 +5,7 @@ import { AdditiveBlending, MathUtils } from "three"
 const Particles = () => {
   const pointsRef = useRef()
   const { width, height } = useThree((state) => state.viewport)
-  const count = 2500
+  const count = 400
 
   const scrollY = useRef(0)
   useEffect(() => {
