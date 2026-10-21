@@ -39,7 +39,7 @@ const PROJECTS_DATA = [
     image: movieWorld,
     tags: ["React", "daisyUi", "motion", "TailwindCSS", "JavaScript"],
     githubUrl: "https://github.com/nfrx1/Movie-World",
-    demoUrl: ""
+    demoUrl: "https://movie-world-sandy.vercel.app/"
   }
 ];
 
