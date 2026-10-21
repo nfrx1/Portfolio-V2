@@ -60,6 +60,7 @@ const Particles = () => {
       </bufferGeometry>
       <pointsMaterial
         color="#ffffff"
+        sizeAttenuation={false}
         transparent={true}
         opacity={0.85}
         blending={AdditiveBlending}
