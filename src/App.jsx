@@ -1,15 +1,17 @@
-import React, { useState } from 'react'
-import NavBar from './Components/NavBar/NavBar';
-import About from './Components/About/About';
-import Home from './Components/Main/Home';
-import Projects from './Components/ِProjects/Projects';
+import React, { useState } from "react"
+import NavBar from "./Components/NavBar/NavBar"
+import About from "./Components/About/About"
+import Home from "./Components/Main/Home"
+import Projects from "./Components/ِProjects/Projects"
+import Background from "./Components/Background/Background"
 
 const App = () => {
   const [tab, setTab] = useState("Home")
   return (
     <>
+      <Background />
       <NavBar tab={tab} setTab={setTab} />
-      {tab=="Home"?<Home />:tab=="About"?<About />:<Projects />}
+      {tab == "Home" ? <Home /> : tab == "About" ? <About /> : <Projects />}
     </>
   )
 }
