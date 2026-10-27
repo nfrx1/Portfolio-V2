@@ -3,6 +3,7 @@ import portfolio from "../../assets/projects/Portfolio.png";
 import fanbase from "../../assets/projects/Fanbase.png";
 import portfolioV2 from "../../assets/projects/PortfolioV2.png";
 import movieWorld from "../../assets/projects/movieWorld.png";
+import nfrxStore from "../../assets/projects/nfrxStore.png"
 
 const PROJECTS_DATA = [
   {
@@ -40,6 +41,14 @@ const PROJECTS_DATA = [
     tags: ["React", "daisyUi", "motion", "TailwindCSS", "JavaScript"],
     githubUrl: "https://github.com/nfrx1/Movie-World",
     demoUrl: "https://movie-world-sandy.vercel.app/"
+  },
+  {
+    title: "Nfrx Store",
+    description: "A modern store offering a clean, curated browsing and shopping experience.",
+    image: nfrxStore,
+    tags: ["React", "daisyUi", "TailwindCss", "Zustand"],
+    githubUrl: "https://github.com/nfrx1/Clothes-store",
+    demoUrl: "https://nfrxstore.vercel.app/"
   }
 ];
 
