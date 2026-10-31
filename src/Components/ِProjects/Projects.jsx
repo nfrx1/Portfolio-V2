@@ -21,7 +21,7 @@ const PROJECTS_DATA = [
       "A Python library for the fanbase API that enables you to build automated bots.",
     image: fanbase,
     tags: ["Python"],
-    githubUrl: "https://github.com/nfrx1/LearnProject",
+    githubUrl: "https://github.com/nfrx1/fanbase-api",
     demoUrl: "",
   },
   {
